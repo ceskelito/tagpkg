@@ -16,35 +16,35 @@ activate-global-python-argcomplete --user
 ```
 
 ### Usage:
+Install an APT package and assign one or more tags to it:
   ```bash
 tagpkg install <package> <tags...>
   ```
-Install an APT package and assign one or more tags to it.
 
+Add one or more tags to an already installed package:
 ```bash  
 tagpkg tag <package> <tags...>
 ```
-Add one or more tags to an already installed package.
 
+List all packages tagged with the specified tag:
 ```bash
 tagpkg list <tag>
 ```
-List all packages tagged with the specified tag.
 
+Show all tags assigned to the given package:
 ```bash
   tagpkg tags <package>
 ```
-Show all tags assigned to the given package.
 
+Remove a specific tag from a package:
 ```bash
 tagpkg untag <package> <tag>
 ```
-Remove a specific tag from a package.
 
+Remove all tags associated with the package:
 ```bash
   tagpkg remove <package>
 ```
-Remove all tags associated with the package.
 
 ### Dependencies
 
