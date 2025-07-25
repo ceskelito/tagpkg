@@ -4,12 +4,16 @@ Useful when you need to install dependencies (like libraries, tools, etc.) for y
 You can also use it to tag apps for specific tasks, like video editing, virtualization, productivity, or anything else you have on your PC.
 
 ### Setup:
-git clone git@github.com:ceskelito/tagpkg.git; \n
-cp tagpkg/tagpkg.py ~/.local/bin/tagpkg; \n
+```bash
+git clone git@github.com:ceskelito/tagpkg.git; <br>
+cp tagpkg/tagpkg.py ~/.local/bin/tagpkg; <br>
 rm -rf tagpkg
+```
 
 *only if the autocompletion don't start automatically*
+```bash
 activate-global-python-argcomplete --user
+```
 
 ### Usage:
 - *tagpkg* install <package> <tags...>
