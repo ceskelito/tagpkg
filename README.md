@@ -5,8 +5,8 @@ You can also use it to tag apps for specific tasks, like video editing, virtuali
 
 ### Setup:
 ```bash
-git clone git@github.com:ceskelito/tagpkg.git; <br>
-cp tagpkg/tagpkg.py ~/.local/bin/tagpkg; <br>
+git clone git@github.com:ceskelito/tagpkg.git;
+cp tagpkg/tagpkg.py ~/.local/bin/tagpkg;
 rm -rf tagpkg
 ```
 
