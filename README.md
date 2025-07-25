@@ -4,8 +4,8 @@ Useful when you need to install dependencies (like libraries, tools, etc.) for y
 You can also use it to tag apps for specific tasks, like video editing, virtualization, productivity, or anything else you have on your PC.
 
 ### Setup:
-git clone git@github.com:ceskelito/tagpkg; 
-cp tagpkg/tagpkg.py ~/.local/bin/tagpkg; 
+git clone git@github.com:ceskelito/tagpkg.git; \n
+cp tagpkg/tagpkg.py ~/.local/bin/tagpkg; \n
 rm -rf tagpkg
 
 *only if the autocompletion don't start automatically*
